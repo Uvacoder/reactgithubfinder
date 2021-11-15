@@ -7,6 +7,7 @@ const Input = ({ handleResponse }) => {
   const API_URL = "https://api.github.com/users";
 
   const handleChange = async (e) => {
+    handleResponse(null);
     setUsername(e.target.value);
     const user = e.target.value;
     const url = `${API_URL}/${user}`;
