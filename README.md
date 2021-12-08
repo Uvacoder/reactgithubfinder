@@ -1,5 +1,5 @@
 # React GitHub Profile Finder
-
+-
 A Simple GitHub Profile Finder built With React, Tailwind
 
 ## ScreenShot
